@@ -7,15 +7,18 @@
 
 .clock {
   position: relative;
-  background-color: #d0d0d0;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   margin: 20px 0 0 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 5px solid black;
+  background-image: url("./timer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -15px 0;
 }
 
 .clock::before {
@@ -43,7 +46,7 @@
 
 .clock__min {
   background-color: black;
-  height: 7px;
+  height: 6px;
   z-index: 2;
   width: 37%;
 }
